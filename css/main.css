@@ -200,7 +200,6 @@ section {
 }
 
 section .text {
-    /* display: flex; */
     width: 50vw;
 }
 
@@ -223,7 +222,6 @@ section p {
     letter-spacing: 1px;
     padding: 0 20px;
     margin: 0 40px 0 0;
-    /* text-align: center; */
 }
 
 hr {
