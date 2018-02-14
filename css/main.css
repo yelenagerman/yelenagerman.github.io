@@ -118,6 +118,9 @@ header a {
     background: url('../assets/img/hero.jpg') no-repeat center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: center;
     background-attachment: fixed;
     width: 100vw;
     z-index: -9;
@@ -166,16 +169,18 @@ header a {
 
 @media (max-width: 800px) {
     .hero .text-behind {
-        font-size: 12em;
+        font-size: 8em;
         display: none;
     }
 
     .hero h1 {
-        padding: 10px;
+        padding: 0;
+        text-align: center;
+        justify-content: space-around;
     }
 
     .hero {
-        align-items: center;
+        /* align-items: center; */
     }
 
     #tagline {
@@ -195,7 +200,7 @@ section {
 }
 
 section .text {
-    display: flex;
+    /* display: flex; */
     width: 50vw;
 }
 
@@ -217,7 +222,7 @@ section p {
     line-height: 1.5;
     letter-spacing: 1px;
     padding: 0 20px;
-    margin-bottom: 30px;
+    margin: 0 40px 0 0;
     /* text-align: center; */
 }
 
@@ -231,14 +236,14 @@ hr {
 
 section h3.title {
     /* text-transform: capitalize; */
-    margin-bottom: 30px;
+    margin: 30px 0;
     /* text-align: center; */
     font-family: 'Muli', sans-serif;
     font-size: 50px;
 }
 
 section h6 {
-    transform: translate(-50px, 50px);
+    transform: translate(-50px, 80px);
 }
 
 .quote {
@@ -246,18 +251,35 @@ section h6 {
     font-weight: bolder;
 }
 
+@media (max-width: 1100px) {
+    section {
+        padding: 100px;
+        justify-content: space-around;
+        height: 85vh;
+    }
+
+    section p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
 @media (max-width: 800px) {
     section {
-        padding: 50px 10px;
-        height: 100vh;
+        padding: 50px;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     section .text {
+        display: flex;
         flex-direction: column;
         width: 90vw;
         text-align: center;
+    }
+
+    section p {
+        margin: 0 0 60px 0;
     }
 
     section h6 {
@@ -269,6 +291,7 @@ section h6 {
     }
 
     p {
+        font-size: 16px;
         padding: 0;
         margin: 0;
     }
@@ -319,7 +342,7 @@ footer p {
     transition: all .3s;
     display: flex;
     align-content: center;
-    padding: 50px 50px 0 0;
+    transform: translateY(50px);
 }
 
 .graphic-box a:hover {
@@ -388,11 +411,6 @@ footer p {
     fill: white;
 }
 
-@media (max-width: 800px) {
-    .graphic-box {
-        padding: 0;
-    }
-}
 
 /* Animations */
 
