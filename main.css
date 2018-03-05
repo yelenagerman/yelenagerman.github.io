@@ -232,3 +232,28 @@ a {
 .app-main li,.app-main li:last-of-type,.app-main p:last-of-type {
     padding-bottom: 0
 }
+
+
+/* Animation */
+
+.fadein-1 {
+    opacity: 0;
+    animation: .8s fadein-1 0.3s forwards;
+}
+
+.fadein-2 {
+    opacity: 0;
+    animation: .8s fadein-2 .6s forwards;
+}
+
+@keyframes fadein-1 {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein-2 {
+    100% {
+        opacity: 1;
+    }
+}
