@@ -1,6 +1,6 @@
 # My Portfolio Page
 
-Designed and coded by yours truly. 
+Coded by yours truly. 
 
 [Visit website.](https://lukeberetta.github.io)
 
