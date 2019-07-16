@@ -1,9 +1,3 @@
-.is-white,
-.is-white .app-intro h1,
-.is-white a {
-  color: #000
-}
-
 a,
 abbr,
 acronym,
@@ -153,6 +147,12 @@ a {
 
 .is-loading {
   cursor: wait
+}
+
+.is-white,
+.is-white .app-intro h1,
+.is-white a {
+  color: #000
 }
 
 .is-white {
@@ -340,9 +340,7 @@ a {
 .highlight {
   opacity: 1 !important;
   text-decoration: underline;
-  /* font-weight: bolder; */
 }
-
 
 /* Animation */
 
