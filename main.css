@@ -122,28 +122,29 @@ section {
   z-index: 99;
   margin: auto;
   position: fixed;
-  white-space: nowrap
+  white-space: nowrap;
 }
 
 body {
   line-height: 1;
-  font-weight: 500;
+  font-weight: 400;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'DM Sans', Arial, Helvetica, sans-serif;
 
 }
 
 .app-aside ul li,
 .app-header,
 .app-main span {
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase
+  font-weight: 500;
+  /* letter-spacing: 1.5px; */
+  /* text-transform: uppercase; */
+  font-size: 16px;
 }
 
 a {
@@ -176,7 +177,6 @@ a {
 .app-header {
   top: 150px;
   left: 65px;
-  font-size: 10px;
   transform: rotate(-90deg);
   transform-origin: bottom left
 }
@@ -186,7 +186,6 @@ a {
     top: 130px;
     left: auto;
     right: 35px;
-    font-size: 12px;
     transform: rotate(90deg);
     transform-origin: top right
   }
@@ -205,7 +204,6 @@ a {
 
 .app-aside ul li {
   float: left;
-  font-size: 10px;
   position: relative;
   margin-right: 30px
 }
@@ -302,11 +300,11 @@ a {
 
 .app-main span {
   display: block;
-  font-size: 10px;
   padding-bottom: 30px
 }
 
 .app-main h2 {
+  font-weight: 500;
   font-size: 60px;
   max-width: 960px;
   line-height: 125%
@@ -320,8 +318,8 @@ a {
 
 .app-main li,
 .app-main p {
-  opacity: .5;
-  font-size: 14px;
+  opacity: .6;
+  font-size: 18px;
   max-width: 420px;
   list-style: none;
   line-height: 150%;
@@ -330,7 +328,7 @@ a {
 
 .app-main li small,
 .app-main p small {
-  font-size: 10px
+  font-size: 11px
 }
 
 .app-main li,
@@ -341,7 +339,8 @@ a {
 
 .highlight {
   opacity: 1 !important;
-  font-weight: bolder;
+  text-decoration: underline;
+  /* font-weight: bolder; */
 }
 
 
