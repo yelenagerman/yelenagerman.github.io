@@ -34,8 +34,3 @@ $(window).on("load", function () {
 	$("body").removeClass("is-loading"),
 		/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? $("body").addClass("is-mobile") : appScroller()
 });
-
-var classes = ["is-black", "is-white"],
-	randomClass = classes[getRandomInt(0, classes.length - 1)];
-
-document.body.className = randomClass;
