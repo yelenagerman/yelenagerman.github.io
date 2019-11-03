@@ -37,6 +37,6 @@ $(window).on("load", function () {
 
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'assets/particlesjs-config.json', function() {
-	console.log('callback - particles.js config loaded');
+particlesJS.load('particlesjs-config', 'assets/particlesjs-config.json', function() {
+	console.log('callback - particlesjs-config.json config loaded');
   });
