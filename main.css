@@ -167,7 +167,7 @@ a {
   left: 65px;
   transform: rotate(-90deg);
   transform-origin: bottom left
-} */ 
+}  
 
 @media only screen and (max-width: 451px) {
   .app-header {
@@ -177,7 +177,7 @@ a {
     transform: rotate(90deg);
     transform-origin: top right
   }
-}
+}*/
 
 .app-aside {
   left: 65px;
@@ -285,21 +285,8 @@ padding-bottom: 120px
 
 .app-main span {
   display: block;
-  /* padding-bottom: 30px */
 }
 
-.app-main h2 {
-  font-weight: 500;
-  font-size: 60px;
-  max-width: 960px;
-  line-height: 125%
-}
-
-@media only screen and (max-width: 451px) {
-  .app-main h2 {
-    font-size: 35px
-  }
-}
 
 .app-main li,
 .app-main p {
@@ -333,7 +320,6 @@ padding-bottom: 120px
 .app-main {
   text-align: center;
   position: relative;
-  padding: 240px 120px;
   transition: all .5s cubic-bezier(.2,.84,.5,1);
   transform-origin: 0 0;
   transform: translate3d(0,0,0);
@@ -345,6 +331,12 @@ padding-bottom: 120px
   -moz-perspective: 1000;
   -ms-perspective: 1000;
   perspective: 1000
+}
+
+.title {    
+  position: fixed;
+  top: 50%;
+  left: 50%;
 }
 
 .main-section, .main-intro {
