@@ -249,7 +249,7 @@ p {
 
 @media only screen and (max-width: 451px) {
   .app-main {
-    padding: 60px 60px 60px 30px
+    padding: 60px 60px 60px 60px
   }
 }
 
@@ -257,14 +257,14 @@ p {
 .app-main .main-section {
   display: block;
   position: relative;
-  padding-bottom: 120px
+  padding-bottom: 0px
 }
 
 @media only screen and (max-width: 451px) {
 
   .app-main .main-intro,
   .app-main .main-section {
-    padding-bottom: 60px
+    padding-bottom: 0px
   }
 }
 
