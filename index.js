@@ -34,3 +34,9 @@ $(window).on("load", function () {
 	$("body").removeClass("is-loading"),
 		/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? $("body").addClass("is-mobile") : appScroller()
 });
+
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+	console.log('callback - particles.js config loaded');
+  });
