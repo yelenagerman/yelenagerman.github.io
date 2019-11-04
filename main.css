@@ -333,7 +333,8 @@ padding-bottom: 120px
   perspective: 1000
 }
 
-.title {    
+.title {  
+  width: 100%  
   position: fixed;
   top: 50%;
   left: 50%;
